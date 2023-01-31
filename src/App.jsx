@@ -90,6 +90,7 @@ function App() {
 
   return (
     <>
+      <h2>TO - DO</h2>
       <div className="toolsSection">
         <input
           type="text"
@@ -97,7 +98,7 @@ function App() {
           id="taskInput"
           value={inputTask}
           onChange={({target}) => setInputTask(target.value)}
-          placeholder="write something"
+          placeholder="Task"
         />
         <button
           className="addButton"
